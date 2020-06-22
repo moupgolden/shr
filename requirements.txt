@@ -6,7 +6,7 @@ dash-core-components==1.10.0
 dash-html-components==1.0.3
 dash-renderer==1.4.1
 dash-table==4.7.0
-Django==3.0.4
+Django==3.0.7
 djangorestframework==3.11.0
 dnspython==1.16.0
 Flask==1.1.2
