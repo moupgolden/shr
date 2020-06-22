@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 import numpy as np,pandas as pd
 
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
 model = pickle.load(open('model.pkl', 'rb'))
 
 @app.route('/')
